@@ -1,9 +1,10 @@
 from turtle import Turtle, Screen
 from random import shuffle
+import sound_effect
 import pandas
 
 DATA = pandas.read_csv('brazilian_states.csv', index_col=False)
-
+sound = sound_effect.SoundEffect()
 
 class GameClickMode:
     """
@@ -53,6 +54,8 @@ class GameClickMode:
 
             if self.states_turtles[state]['object'].distance(x=x, y=y) < hitbox:
                 if self.list_of_states_remaining[0] == state:
+                    #sound_effect.right_answer()
+                    sound.click()
                     self.list_of_states_revealed.append(self.list_of_states_remaining.pop(0))
                     self.states_turtles[state]['image'].showturtle()
                 else:
