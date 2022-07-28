@@ -3,7 +3,6 @@ from sound_effect import CLICK
 import pandas
 from click_mode import GameClickMode
 from type_mode import GameTypeMode
-from random import shuffle
 
 data = pandas.read_csv('brazilian_states.csv', index_col=False)
 game_running = True

@@ -59,9 +59,11 @@ class GameClickMode:
                     fx.RIGHT.play()
                     self.list_of_states_revealed.append(self.list_of_states_remaining.pop(0))
                     self.states_turtles[state]['image'].showturtle()
+                    break
                 else:
                     fx.WRONG.play()
                     self.list_of_states_remaining.pop(0)
+                    break
 
         self.scoreboard()
 

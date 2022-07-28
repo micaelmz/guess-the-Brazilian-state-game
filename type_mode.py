@@ -49,7 +49,7 @@ class GameTypeMode:
     def player_move(self):
         move = screen.textinput(title=f"Chute um estado",
                                 prompt=f"Acertos: {self.score} / {len(self.list_of_states)}\n"
-                                       "Digite o nome de um estado?")
+                                       "Digite o nome de um estado?").title()
         if move.lower() == 'parar':
             screen.bye()
 
