@@ -23,7 +23,7 @@ that state on the map, if you make a mistake, you will lose your turn
 with that state, so the game will continue to the next one, until you 
 finish all the 26 states and the Federal District.
 
-<img src="https://raw.githubusercontent.com/micaelmz/micaelmz/main/images/guess-the-brazilian-state/guess-the-brazilian-state-sample.gif"  width="500" />
+<img src="https://raw.githubusercontent.com/micaelmz/micaelmz/main/images/guess-the-brazilian-state/guess-the-brazilian-state-sample.gif"  width="750" />
 
 
 ## Typing mode
@@ -31,7 +31,7 @@ finish all the 26 states and the Federal District.
 This is a free game mode, you can try to remember as many states as you can, you don't need to know their locations on the maps, just the names. <br>
 The game will run until you complete all states, or when you type "parar", then your score will shows on the screen, as well the names of all states that you couldn't remember.
 
-<img src="https://raw.githubusercontent.com/micaelmz/micaelmz/main/images/guess-the-brazilian-state/type-sample.gif"  width="500"  alt="Type Mode"/>
+<img src="https://raw.githubusercontent.com/micaelmz/micaelmz/main/images/guess-the-brazilian-state/type-sample.gif"  width="750"  alt="Type Mode"/>
 
 
 
